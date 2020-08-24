@@ -25,7 +25,6 @@ class DetailViewController: UIViewController {
     
     
     @IBAction func DeleteMemo(_ sender: Any) {
-        print("DeleteMemo")
         let ud = UserDefaults.standard
         if ud.array(forKey: "memoArray") != nil{
             var saveMemoArray = ud.array(forKey: "memoArray") as! [String]
