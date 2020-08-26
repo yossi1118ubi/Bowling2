@@ -8,13 +8,15 @@
 
 import UIKit
 
+//めものトップページを構成するクラス
 class MemoViewController: UIViewController , UITableViewDataSource, UITableViewDelegate{
     
     
-   
+    //メモ一覧のリストを作っている
     @IBOutlet weak var memoTableView: UITableView!
     var memoArray = [String]()
     
+    //ユーザデフォルトをインスタンス化
     let ud = UserDefaults.standard
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{

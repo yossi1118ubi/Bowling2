@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF79EBD324F6768400613FED /* FormDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79EBD224F6768400613FED /* FormDetail.swift */; };
 		CF97B07124EDE2D40091551D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97B07024EDE2D40091551D /* AppDelegate.swift */; };
 		CF97B07324EDE2D40091551D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97B07224EDE2D40091551D /* SceneDelegate.swift */; };
 		CF97B07524EDE2D40091551D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF97B07424EDE2D40091551D /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF79EBD224F6768400613FED /* FormDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDetail.swift; sourceTree = "<group>"; };
 		CF97B06D24EDE2D40091551D /* Bowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF97B07024EDE2D40091551D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF97B07224EDE2D40091551D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				CF97B07224EDE2D40091551D /* SceneDelegate.swift */,
 				CF97B07424EDE2D40091551D /* ViewController.swift */,
 				CF97B07624EDE2D40091551D /* Main.storyboard */,
+				CF79EBD224F6768400613FED /* FormDetail.swift */,
 				CF97B08E24F396440091551D /* DetailViewController.swift */,
 				CF97B08C24F38D3A0091551D /* MemoViewController.swift */,
 				CF97B08A24F387D20091551D /* AddMemoViewController.swift */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF79EBD324F6768400613FED /* FormDetail.swift in Sources */,
 				CF97B08F24F396440091551D /* DetailViewController.swift in Sources */,
 				CF97B08D24F38D3A0091551D /* MemoViewController.swift in Sources */,
 				CF97B07524EDE2D40091551D /* ViewController.swift in Sources */,
